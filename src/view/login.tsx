@@ -4,19 +4,22 @@ export function CarouselTransition() {
   return (
     <Carousel transition={{ duration: 2 }} className="rounded-xl" autoplay loop>
       <img
-        src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+        src="https://etimg.etb2bimg.com/photo/75729614.cms"
         alt="image 1"
         className="h-full w-full object-cover"
+        draggable="false"
       />
       <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+        src="https://assets-homepages-learning.3plearning.net/wp-content/uploads/2020/06/blog-20-student-engagement-strategies-captivating-classroom.png"
         alt="image 2"
         className="h-full w-full object-cover"
+        draggable="false"
       />
       <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+        src="https://assets.website-files.com/634ef78fb6faa83c8375fe5e/63783ef59d37fd25848828fe_10-books-every-leader-should-read.webp"
         alt="image 3"
         className="h-full w-full object-cover"
+        draggable="false"
       />
     </Carousel>
   );
